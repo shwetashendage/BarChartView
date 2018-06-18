@@ -26,7 +26,7 @@ class BarChartViewTests: XCTestCase {
   }
   
   func testGetDataFromUrlSucceed() {
-    let url = URL(string: "https://api.myjson.com/bins/ipz6h")
+    let url = URL(string: BCVConstants.BCVChartDataUrl)
     let makeExpectation = expectation(description: "Completion handler invoked")
     var statusCode: Int?
     var httpResponseError: Error?

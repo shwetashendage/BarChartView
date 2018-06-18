@@ -17,6 +17,16 @@
 		E4BF7D8C20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
 		E4BF7D8D20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
 		E4BF7D8E20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
+		E4BF7D9120D7886600089543 /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* GraphElement.swift */; };
+		E4BF7D9220D7886600089543 /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* GraphElement.swift */; };
+		E4BF7D9320D7886600089543 /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* GraphElement.swift */; };
+		E4BF7D9620D7896C00089543 /* BCVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9520D7896C00089543 /* BCVConstants.swift */; };
+		E4BF7D9720D7896C00089543 /* BCVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9520D7896C00089543 /* BCVConstants.swift */; };
+		E4BF7D9820D7896C00089543 /* BCVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9520D7896C00089543 /* BCVConstants.swift */; };
+		E4BF7DA020D78C3B00089543 /* BarChartViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9F20D78C3B00089543 /* BarChartViewModelTests.swift */; };
+		E4BF7DA720D78C7800089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
+		E4BF7DA820D78C9B00089543 /* BCVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9520D7896C00089543 /* BCVConstants.swift */; };
+		E4BF7DA920D78CB200089543 /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* GraphElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +38,13 @@
 			remoteInfo = BarChartView;
 		};
 		E4BF7D7020D77F4800089543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4BF7D4820D77F4600089543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BF7D4F20D77F4600089543;
+			remoteInfo = BarChartView;
+		};
+		E4BF7DA220D78C3B00089543 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4BF7D4820D77F4600089543 /* Project object */;
 			proxyType = 1;
@@ -51,6 +68,11 @@
 		E4BF7D7320D77F4800089543 /* BarChartViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewUITests.swift; sourceTree = "<group>"; };
 		E4BF7D7520D77F4800089543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4BF7D8B20D7866E00089543 /* BarChartService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartService.swift; sourceTree = "<group>"; };
+		E4BF7D9020D7886600089543 /* GraphElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphElement.swift; sourceTree = "<group>"; };
+		E4BF7D9520D7896C00089543 /* BCVConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCVConstants.swift; sourceTree = "<group>"; };
+		E4BF7D9D20D78C3B00089543 /* BarChartViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarChartViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BF7D9F20D78C3B00089543 /* BarChartViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewModelTests.swift; sourceTree = "<group>"; };
+		E4BF7DA120D78C3B00089543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +97,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4BF7D9A20D78C3B00089543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +113,7 @@
 				E4BF7D5220D77F4600089543 /* BarChartView */,
 				E4BF7D6720D77F4800089543 /* BarChartViewTests */,
 				E4BF7D7220D77F4800089543 /* BarChartViewUITests */,
+				E4BF7D9E20D78C3B00089543 /* BarChartViewModelTests */,
 				E4BF7D5120D77F4600089543 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +124,7 @@
 				E4BF7D5020D77F4600089543 /* BarChartView.app */,
 				E4BF7D6420D77F4800089543 /* BarChartViewTests.xctest */,
 				E4BF7D6F20D77F4800089543 /* BarChartViewUITests.xctest */,
+				E4BF7D9D20D78C3B00089543 /* BarChartViewModelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,8 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				E4BF7D5320D77F4600089543 /* AppDelegate.swift */,
+				E4BF7D9420D7887000089543 /* Model */,
 				E4BF7D8120D77F5400089543 /* Controller */,
 				E4BF7D8F20D7867500089543 /* Networking */,
+				E4BF7D9520D7896C00089543 /* BCVConstants.swift */,
 				E4BF7D5720D77F4600089543 /* Main.storyboard */,
 				E4BF7D5A20D77F4800089543 /* Assets.xcassets */,
 				E4BF7D5C20D77F4800089543 /* LaunchScreen.storyboard */,
@@ -144,6 +177,23 @@
 				E4BF7D8B20D7866E00089543 /* BarChartService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		E4BF7D9420D7887000089543 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4BF7D9020D7886600089543 /* GraphElement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E4BF7D9E20D78C3B00089543 /* BarChartViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4BF7D9F20D78C3B00089543 /* BarChartViewModelTests.swift */,
+				E4BF7DA120D78C3B00089543 /* Info.plist */,
+			);
+			path = BarChartViewModelTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +252,24 @@
 			productReference = E4BF7D6F20D77F4800089543 /* BarChartViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E4BF7D9C20D78C3B00089543 /* BarChartViewModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BF7DA420D78C3B00089543 /* Build configuration list for PBXNativeTarget "BarChartViewModelTests" */;
+			buildPhases = (
+				E4BF7D9920D78C3B00089543 /* Sources */,
+				E4BF7D9A20D78C3B00089543 /* Frameworks */,
+				E4BF7D9B20D78C3B00089543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4BF7DA320D78C3B00089543 /* PBXTargetDependency */,
+			);
+			name = BarChartViewModelTests;
+			productName = BarChartViewModelTests;
+			productReference = E4BF7D9D20D78C3B00089543 /* BarChartViewModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -223,6 +291,10 @@
 						CreatedOnToolsVersion = 9.4;
 						TestTargetID = E4BF7D4F20D77F4600089543;
 					};
+					E4BF7D9C20D78C3B00089543 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E4BF7D4F20D77F4600089543;
+					};
 				};
 			};
 			buildConfigurationList = E4BF7D4B20D77F4600089543 /* Build configuration list for PBXProject "BarChartView" */;
@@ -241,6 +313,7 @@
 				E4BF7D4F20D77F4600089543 /* BarChartView */,
 				E4BF7D6320D77F4800089543 /* BarChartViewTests */,
 				E4BF7D6E20D77F4800089543 /* BarChartViewUITests */,
+				E4BF7D9C20D78C3B00089543 /* BarChartViewModelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +343,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E4BF7D9B20D78C3B00089543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -277,7 +357,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BF7D9120D7886600089543 /* GraphElement.swift in Sources */,
 				E4BF7D5620D77F4600089543 /* BarChartViewController.swift in Sources */,
+				E4BF7D9620D7896C00089543 /* BCVConstants.swift in Sources */,
 				E4BF7D5420D77F4600089543 /* AppDelegate.swift in Sources */,
 				E4BF7D8C20D7866E00089543 /* BarChartService.swift in Sources */,
 			);
@@ -287,6 +369,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BF7D9220D7886600089543 /* GraphElement.swift in Sources */,
+				E4BF7D9720D7896C00089543 /* BCVConstants.swift in Sources */,
 				E4BF7D8D20D7866E00089543 /* BarChartService.swift in Sources */,
 				E4BF7D6920D77F4800089543 /* BarChartViewTests.swift in Sources */,
 			);
@@ -296,8 +380,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BF7D9320D7886600089543 /* GraphElement.swift in Sources */,
+				E4BF7D9820D7896C00089543 /* BCVConstants.swift in Sources */,
 				E4BF7D8E20D7866E00089543 /* BarChartService.swift in Sources */,
 				E4BF7D7420D77F4800089543 /* BarChartViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BF7D9920D78C3B00089543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BF7DA720D78C7800089543 /* BarChartService.swift in Sources */,
+				E4BF7DA920D78CB200089543 /* GraphElement.swift in Sources */,
+				E4BF7DA820D78C9B00089543 /* BCVConstants.swift in Sources */,
+				E4BF7DA020D78C3B00089543 /* BarChartViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +410,11 @@
 			isa = PBXTargetDependency;
 			target = E4BF7D4F20D77F4600089543 /* BarChartView */;
 			targetProxy = E4BF7D7020D77F4800089543 /* PBXContainerItemProxy */;
+		};
+		E4BF7DA320D78C3B00089543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BF7D4F20D77F4600089543 /* BarChartView */;
+			targetProxy = E4BF7DA220D78C3B00089543 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -564,6 +666,44 @@
 			};
 			name = Release;
 		};
+		E4BF7DA520D78C3B00089543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarChartViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shweta.BarChartViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarChartView.app/BarChartView";
+			};
+			name = Debug;
+		};
+		E4BF7DA620D78C3B00089543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BarChartViewModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Shweta.BarChartViewModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarChartView.app/BarChartView";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,6 +739,15 @@
 			buildConfigurations = (
 				E4BF7D7F20D77F4800089543 /* Debug */,
 				E4BF7D8020D77F4800089543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BF7DA420D78C3B00089543 /* Build configuration list for PBXNativeTarget "BarChartViewModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BF7DA520D78C3B00089543 /* Debug */,
+				E4BF7DA620D78C3B00089543 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

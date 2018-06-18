@@ -11,18 +11,18 @@ import Foundation
 class BarChartService {
   
   typealias JSONDictionary = [String: Any]
-  typealias chartResult = ([Any]?) -> ()
+  typealias chartResult = ([GraphElement]?) -> ()
   
   var defaultSession = URLSession(configuration: .default)
   var dataTask: URLSessionDataTask?
-  var chartDataArray: [Any] = []
+  var chartDataArray: [GraphElement] = []
   
   func getFacts(completion: @escaping chartResult) {
     
     //    Webservice call
     dataTask?.cancel()
     
-    guard let url = URL(string: "https://api.myjson.com/bins/ipz6h") else {
+    guard let url = URL(string: BCVConstants.BCVChartDataUrl) else {
       return
     }
     
@@ -59,14 +59,17 @@ class BarChartService {
       response = try JSONSerialization.jsonObject(with: data, options: []) as? JSONDictionary
     } catch _ as NSError {
       //Default Data
-     
+      
       return
     }
-    guard let array = response!["graph"] as? [JSONDictionary] else {
+    guard let array = response![BCVConstants.BCVKeys.graph] as? [JSONDictionary] else {
       //Default Data
       return
     }
-    print(array)
+    
+    chartDataArray = array.compactMap({ dataDictionary in
+      GraphElement(index: dataDictionary[BCVConstants.BCVKeys.index] as! Int, value: dataDictionary[BCVConstants.BCVKeys.value] as! Int)
+    })
     
   }
   
