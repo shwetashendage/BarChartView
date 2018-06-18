@@ -9,17 +9,28 @@
 import UIKit
 
 class BarChartViewController: UIViewController {
-
+  
+  @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+  let service = BarChartService()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    service.getFacts() { result in
+      
+      self.activityIndicator.stopAnimating()
+      
+      if let result = result{
+        print(result)
+      }
+      
+    }
   }
-
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
-
-
+  
+  
 }
 

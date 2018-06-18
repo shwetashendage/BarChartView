@@ -14,6 +14,9 @@
 		E4BF7D5E20D77F4800089543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BF7D5C20D77F4800089543 /* LaunchScreen.storyboard */; };
 		E4BF7D6920D77F4800089543 /* BarChartViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D6820D77F4800089543 /* BarChartViewTests.swift */; };
 		E4BF7D7420D77F4800089543 /* BarChartViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D7320D77F4800089543 /* BarChartViewUITests.swift */; };
+		E4BF7D8C20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
+		E4BF7D8D20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
+		E4BF7D8E20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,7 @@
 		E4BF7D6F20D77F4800089543 /* BarChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BF7D7320D77F4800089543 /* BarChartViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewUITests.swift; sourceTree = "<group>"; };
 		E4BF7D7520D77F4800089543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4BF7D8B20D7866E00089543 /* BarChartService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 			children = (
 				E4BF7D5320D77F4600089543 /* AppDelegate.swift */,
 				E4BF7D8120D77F5400089543 /* Controller */,
+				E4BF7D8F20D7867500089543 /* Networking */,
 				E4BF7D5720D77F4600089543 /* Main.storyboard */,
 				E4BF7D5A20D77F4800089543 /* Assets.xcassets */,
 				E4BF7D5C20D77F4800089543 /* LaunchScreen.storyboard */,
@@ -131,6 +136,14 @@
 				E4BF7D5520D77F4600089543 /* BarChartViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		E4BF7D8F20D7867500089543 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E4BF7D8B20D7866E00089543 /* BarChartService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			files = (
 				E4BF7D5620D77F4600089543 /* BarChartViewController.swift in Sources */,
 				E4BF7D5420D77F4600089543 /* AppDelegate.swift in Sources */,
+				E4BF7D8C20D7866E00089543 /* BarChartService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BF7D8D20D7866E00089543 /* BarChartService.swift in Sources */,
 				E4BF7D6920D77F4800089543 /* BarChartViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BF7D8E20D7866E00089543 /* BarChartService.swift in Sources */,
 				E4BF7D7420D77F4800089543 /* BarChartViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
