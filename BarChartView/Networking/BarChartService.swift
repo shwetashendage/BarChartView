@@ -16,7 +16,8 @@ class BarChartService {
   var defaultSession = URLSession(configuration: .default)
   var dataTask: URLSessionDataTask?
   var chartDataArray: [BarGraphElement] = []
-  
+  let defaultData: [JSONDictionary] = [["index":1,"value":4],["index":2,"value":2],["index":3,"value":1],["index":4,"value":3],["index":5,"value":5],["index":6,"value":3],["index":7,"value":2],["index":8,"value":1],["index":9,"value":5],["index":10,"value":3]]
+
   func getFacts(completion: @escaping chartResult) {
     
     //    Webservice call
@@ -34,6 +35,7 @@ class BarChartService {
       
       if let error = error {
         //Default Data
+        self.createDefaultDataModel()
         print(error)
       } else if let data = data,
         let response = response as? HTTPURLResponse,
@@ -59,11 +61,12 @@ class BarChartService {
       response = try JSONSerialization.jsonObject(with: data, options: []) as? JSONDictionary
     } catch _ as NSError {
       //Default Data
-      
+      createDefaultDataModel()
       return
     }
     guard let array = response![BCVConstants.BCVKeys.graph] as? [JSONDictionary] else {
       //Default Data
+      createDefaultDataModel()
       return
     }
     
@@ -71,6 +74,12 @@ class BarChartService {
       BarGraphElement(index: dataDictionary[BCVConstants.BCVKeys.index] as! Int, value: dataDictionary[BCVConstants.BCVKeys.value] as! Int)
     })
     
+  }
+  
+  func createDefaultDataModel() {
+    chartDataArray = defaultData.compactMap({ dataDictionary in
+      BarGraphElement(index: dataDictionary[BCVConstants.BCVKeys.index] as! Int, value: dataDictionary[BCVConstants.BCVKeys.value] as! Int)
+    })
   }
   
 }
