@@ -54,6 +54,13 @@ class BarChartViewController: UIViewController {
     
     horizontalStackView.addArrangedSubview(verticalStackView)
     horizontalStackView.translatesAutoresizingMaskIntoConstraints = false;
+    
+    //Animation
+    UIView.animate(withDuration: 1, animations: {
+      verticalStackView.setNeedsLayout()
+      verticalStackView.layoutIfNeeded()
+    })
+    
   }
   
   private func heightOfBarElement (value: Int) -> CGFloat {
