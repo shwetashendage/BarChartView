@@ -17,20 +17,24 @@
 		E4BF7D8C20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
 		E4BF7D8D20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
 		E4BF7D8E20D7866E00089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
-		E4BF7D9120D7886600089543 /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* GraphElement.swift */; };
-		E4BF7D9220D7886600089543 /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* GraphElement.swift */; };
-		E4BF7D9320D7886600089543 /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* GraphElement.swift */; };
+		E4BF7D9120D7886600089543 /* BarGraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* BarGraphElement.swift */; };
+		E4BF7D9220D7886600089543 /* BarGraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* BarGraphElement.swift */; };
+		E4BF7D9320D7886600089543 /* BarGraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* BarGraphElement.swift */; };
 		E4BF7D9620D7896C00089543 /* BCVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9520D7896C00089543 /* BCVConstants.swift */; };
 		E4BF7D9720D7896C00089543 /* BCVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9520D7896C00089543 /* BCVConstants.swift */; };
 		E4BF7D9820D7896C00089543 /* BCVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9520D7896C00089543 /* BCVConstants.swift */; };
 		E4BF7DA020D78C3B00089543 /* BarChartViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9F20D78C3B00089543 /* BarChartViewModelTests.swift */; };
 		E4BF7DA720D78C7800089543 /* BarChartService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D8B20D7866E00089543 /* BarChartService.swift */; };
 		E4BF7DA820D78C9B00089543 /* BCVConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9520D7896C00089543 /* BCVConstants.swift */; };
-		E4BF7DA920D78CB200089543 /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* GraphElement.swift */; };
-		E4BF7DAB20D7950C00089543 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DAA20D7950C00089543 /* ColorExtensions.swift */; };
-		E4BF7DAC20D7950C00089543 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DAA20D7950C00089543 /* ColorExtensions.swift */; };
-		E4BF7DAD20D7950C00089543 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DAA20D7950C00089543 /* ColorExtensions.swift */; };
-		E4BF7DAE20D7950C00089543 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DAA20D7950C00089543 /* ColorExtensions.swift */; };
+		E4BF7DA920D78CB200089543 /* BarGraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7D9020D7886600089543 /* BarGraphElement.swift */; };
+		E4BF7DAB20D7950C00089543 /* BarColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DAA20D7950C00089543 /* BarColorExtensions.swift */; };
+		E4BF7DAC20D7950C00089543 /* BarColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DAA20D7950C00089543 /* BarColorExtensions.swift */; };
+		E4BF7DAD20D7950C00089543 /* BarColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DAA20D7950C00089543 /* BarColorExtensions.swift */; };
+		E4BF7DAE20D7950C00089543 /* BarColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DAA20D7950C00089543 /* BarColorExtensions.swift */; };
+		E4BF7DB220D79B9400089543 /* BarRoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DB120D79B9400089543 /* BarRoundedCorner.swift */; };
+		E4BF7DB320D79B9400089543 /* BarRoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DB120D79B9400089543 /* BarRoundedCorner.swift */; };
+		E4BF7DB420D79B9400089543 /* BarRoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DB120D79B9400089543 /* BarRoundedCorner.swift */; };
+		E4BF7DB520D79B9400089543 /* BarRoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF7DB120D79B9400089543 /* BarRoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,12 +76,13 @@
 		E4BF7D7320D77F4800089543 /* BarChartViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewUITests.swift; sourceTree = "<group>"; };
 		E4BF7D7520D77F4800089543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4BF7D8B20D7866E00089543 /* BarChartService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartService.swift; sourceTree = "<group>"; };
-		E4BF7D9020D7886600089543 /* GraphElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphElement.swift; sourceTree = "<group>"; };
+		E4BF7D9020D7886600089543 /* BarGraphElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphElement.swift; sourceTree = "<group>"; };
 		E4BF7D9520D7896C00089543 /* BCVConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCVConstants.swift; sourceTree = "<group>"; };
 		E4BF7D9D20D78C3B00089543 /* BarChartViewModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarChartViewModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BF7D9F20D78C3B00089543 /* BarChartViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewModelTests.swift; sourceTree = "<group>"; };
 		E4BF7DA120D78C3B00089543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4BF7DAA20D7950C00089543 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		E4BF7DAA20D7950C00089543 /* BarColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarColorExtensions.swift; sourceTree = "<group>"; };
+		E4BF7DB120D79B9400089543 /* BarRoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarRoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +143,12 @@
 			isa = PBXGroup;
 			children = (
 				E4BF7D5320D77F4600089543 /* AppDelegate.swift */,
+				E4BF7DB020D79B8600089543 /* View */,
 				E4BF7D9420D7887000089543 /* Model */,
 				E4BF7D8120D77F5400089543 /* Controller */,
 				E4BF7D8F20D7867500089543 /* Networking */,
+				E4BF7DAF20D7994000089543 /* Helper Classes */,
 				E4BF7D9520D7896C00089543 /* BCVConstants.swift */,
-				E4BF7DAA20D7950C00089543 /* ColorExtensions.swift */,
 				E4BF7D5720D77F4600089543 /* Main.storyboard */,
 				E4BF7D5A20D77F4800089543 /* Assets.xcassets */,
 				E4BF7D5C20D77F4800089543 /* LaunchScreen.storyboard */,
@@ -188,7 +194,7 @@
 		E4BF7D9420D7887000089543 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E4BF7D9020D7886600089543 /* GraphElement.swift */,
+				E4BF7D9020D7886600089543 /* BarGraphElement.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,6 +206,22 @@
 				E4BF7DA120D78C3B00089543 /* Info.plist */,
 			);
 			path = BarChartViewModelTests;
+			sourceTree = "<group>";
+		};
+		E4BF7DAF20D7994000089543 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E4BF7DAA20D7950C00089543 /* BarColorExtensions.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		E4BF7DB020D79B8600089543 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4BF7DB120D79B9400089543 /* BarRoundedCorner.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,12 +385,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BF7D9120D7886600089543 /* GraphElement.swift in Sources */,
+				E4BF7D9120D7886600089543 /* BarGraphElement.swift in Sources */,
 				E4BF7D5620D77F4600089543 /* BarChartViewController.swift in Sources */,
 				E4BF7D9620D7896C00089543 /* BCVConstants.swift in Sources */,
 				E4BF7D5420D77F4600089543 /* AppDelegate.swift in Sources */,
 				E4BF7D8C20D7866E00089543 /* BarChartService.swift in Sources */,
-				E4BF7DAB20D7950C00089543 /* ColorExtensions.swift in Sources */,
+				E4BF7DB220D79B9400089543 /* BarRoundedCorner.swift in Sources */,
+				E4BF7DAB20D7950C00089543 /* BarColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,8 +399,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BF7D9220D7886600089543 /* GraphElement.swift in Sources */,
-				E4BF7DAC20D7950C00089543 /* ColorExtensions.swift in Sources */,
+				E4BF7D9220D7886600089543 /* BarGraphElement.swift in Sources */,
+				E4BF7DB320D79B9400089543 /* BarRoundedCorner.swift in Sources */,
+				E4BF7DAC20D7950C00089543 /* BarColorExtensions.swift in Sources */,
 				E4BF7D9720D7896C00089543 /* BCVConstants.swift in Sources */,
 				E4BF7D8D20D7866E00089543 /* BarChartService.swift in Sources */,
 				E4BF7D6920D77F4800089543 /* BarChartViewTests.swift in Sources */,
@@ -388,8 +412,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BF7D9320D7886600089543 /* GraphElement.swift in Sources */,
-				E4BF7DAD20D7950C00089543 /* ColorExtensions.swift in Sources */,
+				E4BF7D9320D7886600089543 /* BarGraphElement.swift in Sources */,
+				E4BF7DB420D79B9400089543 /* BarRoundedCorner.swift in Sources */,
+				E4BF7DAD20D7950C00089543 /* BarColorExtensions.swift in Sources */,
 				E4BF7D9820D7896C00089543 /* BCVConstants.swift in Sources */,
 				E4BF7D8E20D7866E00089543 /* BarChartService.swift in Sources */,
 				E4BF7D7420D77F4800089543 /* BarChartViewUITests.swift in Sources */,
@@ -401,8 +426,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4BF7DA720D78C7800089543 /* BarChartService.swift in Sources */,
-				E4BF7DAE20D7950C00089543 /* ColorExtensions.swift in Sources */,
-				E4BF7DA920D78CB200089543 /* GraphElement.swift in Sources */,
+				E4BF7DB520D79B9400089543 /* BarRoundedCorner.swift in Sources */,
+				E4BF7DAE20D7950C00089543 /* BarColorExtensions.swift in Sources */,
+				E4BF7DA920D78CB200089543 /* BarGraphElement.swift in Sources */,
 				E4BF7DA820D78C9B00089543 /* BCVConstants.swift in Sources */,
 				E4BF7DA020D78C3B00089543 /* BarChartViewModelTests.swift in Sources */,
 			);

@@ -11,11 +11,11 @@ import Foundation
 class BarChartService {
   
   typealias JSONDictionary = [String: Any]
-  typealias chartResult = ([GraphElement]?) -> ()
+  typealias chartResult = ([BarGraphElement]?) -> ()
   
   var defaultSession = URLSession(configuration: .default)
   var dataTask: URLSessionDataTask?
-  var chartDataArray: [GraphElement] = []
+  var chartDataArray: [BarGraphElement] = []
   
   func getFacts(completion: @escaping chartResult) {
     
@@ -68,7 +68,7 @@ class BarChartService {
     }
     
     chartDataArray = array.compactMap({ dataDictionary in
-      GraphElement(index: dataDictionary[BCVConstants.BCVKeys.index] as! Int, value: dataDictionary[BCVConstants.BCVKeys.value] as! Int)
+      BarGraphElement(index: dataDictionary[BCVConstants.BCVKeys.index] as! Int, value: dataDictionary[BCVConstants.BCVKeys.value] as! Int)
     })
     
   }

@@ -15,6 +15,10 @@ extension UIColor
   {
     return  UIColor().hexStringToUIColor(hex: BCVConstants.BCVBarColor)
   }
+  func BCVbackGroundColor()-> UIColor
+  {
+    return  UIColor().hexStringToUIColor(hex: BCVConstants.BCVBackGroundColor)
+  }
   
   func hexStringToUIColor (hex:String) -> UIColor
   {

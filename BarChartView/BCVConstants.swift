@@ -12,7 +12,10 @@ struct BCVConstants {
   static let BCVChartDataUrl = "https://api.myjson.com/bins/ipz6h"
   static let BCVMaximumValueOfElement = 5
   static let BCVBarHeightComponentWRTScreen = 0.6
+  static let BCVBarCornerRadiusComponent = 2
+  
   static let BCVBarColor = "#ffffff"
+  static let BCVBackGroundColor = "#2AA0C6"
 
   struct BCVKeys {
     static let graph = "graph"

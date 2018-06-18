@@ -1,5 +1,5 @@
 //
-//  GraphElement.swift
+//  BarGraphElement.swift
 //  BarChartView
 //
 //  Created by Shweta Shendage on 16/06/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class GraphElement {
+class BarGraphElement {
   
   let index: Int
   let value: Int

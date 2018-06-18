@@ -15,7 +15,10 @@ class BarChartViewController: UIViewController {
   let service = BarChartService()
   
   override func viewDidLoad() {
+    
     super.viewDidLoad()
+    
+    view.backgroundColor = UIColor().BCVbackGroundColor()
     
     service.getFacts() { result in
       
@@ -32,7 +35,7 @@ class BarChartViewController: UIViewController {
       
     }
   }
-  private func addGraphElementsOnHorizontalStackView (graphElement: GraphElement) {
+  private func addGraphElementsOnHorizontalStackView (graphElement: BarGraphElement) {
     
     let heightOfOneBar = heightOfBarElement(value: graphElement.value)
     
@@ -41,7 +44,7 @@ class BarChartViewController: UIViewController {
     verticalStackView.alignment = .fill
     verticalStackView.distribution = .fill
     
-    let singleBarStack = UIView()
+    let singleBarStack = BarRoundedCorner()
     singleBarStack.backgroundColor = UIColor().BCVbarColor()
     singleBarStack.heightAnchor.constraint(equalToConstant: heightOfOneBar).isActive = true
     
