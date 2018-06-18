@@ -15,12 +15,10 @@ class BarChartViewTests: XCTestCase {
   
   override func setUp() {
     super.setUp()
-    // Put setup code here. This method is called before the invocation of each test method in the class.
     sessionUnderTest = URLSession(configuration: URLSessionConfiguration.default)
   }
   
   override func tearDown() {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
     sessionUnderTest = nil
     super.tearDown()
   }

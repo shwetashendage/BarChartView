@@ -10,6 +10,7 @@ import UIKit
 
 class BarChartViewController: UIViewController {
   
+  @IBOutlet weak var horizontalStackView: UIStackView!
   @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
   let service = BarChartService()
   
@@ -21,10 +22,42 @@ class BarChartViewController: UIViewController {
       self.activityIndicator.stopAnimating()
       
       if let result = result{
-        print(result)
+        
+        for graphElement in result {
+          
+          self.addGraphElementsOnHorizontalStackView(graphElement: graphElement)
+          
+        }
       }
       
     }
+  }
+  private func addGraphElementsOnHorizontalStackView (graphElement: GraphElement) {
+    
+    let heightOfOneBar = heightOfBarElement(value: graphElement.value)
+    
+    let verticalStackView: UIStackView = UIStackView()
+    verticalStackView.axis = .vertical
+    verticalStackView.alignment = .fill
+    verticalStackView.distribution = .fill
+    
+    let singleBarStack = UIView()
+    singleBarStack.backgroundColor = UIColor().BCVbarColor()
+    singleBarStack.heightAnchor.constraint(equalToConstant: heightOfOneBar).isActive = true
+    
+    verticalStackView.addArrangedSubview(singleBarStack)
+    verticalStackView.heightAnchor.constraint(equalToConstant: heightOfOneBar).isActive = true
+    verticalStackView.translatesAutoresizingMaskIntoConstraints = false;
+    
+    horizontalStackView.addArrangedSubview(verticalStackView)
+    horizontalStackView.translatesAutoresizingMaskIntoConstraints = false;
+  }
+  
+  private func heightOfBarElement (value: Int) -> CGFloat {
+    
+    let maxHeight: CGFloat = UIScreen.main.bounds.size.height * CGFloat(BCVConstants.BCVBarHeightComponentWRTScreen)
+    
+    return (CGFloat(value*100/BCVConstants.BCVMaximumValueOfElement) * maxHeight) / 100
   }
   
   override func didReceiveMemoryWarning() {
